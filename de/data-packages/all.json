@@ -3,6 +3,49 @@
   "title": "All indicators",
   "resources": [
     {
+      "path": "1-2/data.csv",
+      "name": "1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Jahr"
+          },
+          {
+            "name": "Gruppierung",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "32",
+                "26",
+                "4",
+                "31",
+                "25",
+                "30",
+                "29",
+                "27",
+                "5",
+                ""
+              ]
+            },
+            "title": "Gruppierung"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "1-2"
+    },
+    {
       "path": "1-1/data.csv",
       "name": "1-1",
       "profile": "tabular-data-resource",
