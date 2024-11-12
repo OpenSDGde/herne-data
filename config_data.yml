@@ -1,4 +1,4 @@
-
+# This is a comment
 # This config file is for use with the `build_data` and `check_data` functions,
 # which are helpers for implementations of Open SDG. This file allows easy use
 # of those functions without altering Python code.
@@ -9,6 +9,7 @@
 # languages. Each build is in its own subfolder - one for each language.
 languages:
   - de
+
 
 # Destination directory
 # ---------------------
@@ -41,12 +42,9 @@ inputs:
   - class: InputCsvData
     # This describes the data files, relative to the "src_dir" indicated above.
     path_pattern: data/*-*.csv
-  - class: InputYamlMeta
-    path_pattern: indicator-config/*-*.yml
-    git: false
-  - class: InputYamlMeta
+  - class: InputYamlMdMeta
     # This describes the meta files, relative to the "src_dir" indicated above.
-    path_pattern: meta/*-*.yml
+    path_pattern: meta/*-*.md
     # This specifies whether or not to use Git to calculate the "last updated"
     # dates for data files.
     git: true
@@ -56,8 +54,6 @@ inputs:
     # need to change this setting. It is intended for sites where the data needs
     # to be "built" before being processed by sdg-build.
     git_data_dir: data
-  - class: InputSdmxMeta
-    meta_suffix: __GLOBAL
 
 # Translations
 # ------------
@@ -73,6 +69,7 @@ translations:
   - class: TranslationInputSdgTranslations
     source: https://github.com/open-sdg/sdg-translations.git
     tag: 2.3.0
+
   # This pulls in translations from a local 'translations' folder.
   - class: TranslationInputYaml
     source: translations
@@ -91,11 +88,11 @@ reporting_status_extra_fields: []
 # below and adjust if you would like to use the Open SDG mapping functionality.
 # Note that the GeoJSON files can either be remote (as in the example below) or
 # local, relative to the src_dir specified above.
-#map_layers:
-#  - geojson_file: https://geoportal1-ons.opendata.arcgis.com/datasets/4fcca2a47fed4bfaa1793015a18537ac_4.geojson
-#    name_property: rgn17nm
-#    id_property: rgn17cd
-#    output_subfolder: regions
+# map_layers:
+#  - geojson_file: district.geojson
+#    name_property: spatial_al
+#    id_property: gml_id
+#    output_subfolder: districts
 #    filename_prefix: indicator_
 
 # Documentation settings
@@ -117,21 +114,3 @@ docs_intro: This is a list of examples of endpoints and output that are
 # This is mainly intended to show units of measurement and series, which are not
 # normally considered "disaggregation".
 # docs_extra_disaggregations: ['Units', 'Series']
-
-# This controls the metadata report which is part of the automatic documentation.
-# More info can be found at https://open-sdg.readthedocs.io/en/latest/data-configuration/#docs_metadata_fields
-docs_metadata_fields:
-    - key: reporting_status
-      label: Reporting status
-    - key: SDG_CUSTODIAN_AGENCIES__GLOBAL
-      label: UN custodian agency
-    - key: data_non_statistical
-      label: Non-statistical
-    - key: data_show_map
-      label: Show map
-    - key: national_geographical_coverage
-      label: Geographical coverage
-    - key: computation_units
-      label: Units
-    - key: graph_type
-      label: Graph type
