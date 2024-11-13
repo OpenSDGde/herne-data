@@ -14,29 +14,23 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
+            "type": "integer"
           },
           {
             "name": "Gruppierung",
             "type": "string",
             "constraints": {
               "enum": [
-                "32",
-                "26",
-                "4",
-                "31",
-                "25",
-                "30",
-                "29",
-                "27",
-                "5",
+                "Kinderarmut",
+                "Jugendarmut",
+                "Altersarmut",
                 ""
               ]
             }
           },
           {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       },
