@@ -12,8 +12,19 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Jahr"
+          },
+          {
+            "name": "Gruppierung",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "1",
+                ""
+              ]
+            },
+            "title": "Gruppierung"
           },
           {
             "name": "Value",
