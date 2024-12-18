@@ -1115,9 +1115,9 @@
             "constraints": {
               "enum": [
                 "Wirtschaft",
-                "Kommunale Einrichtung",
                 "Private Haushalte",
                 "Verkehr",
+                "Kommunale Einrichtung",
                 ""
               ]
             }
