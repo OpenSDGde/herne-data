@@ -314,7 +314,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "string",
             "title": "Jahr"
           },
           {
@@ -322,7 +322,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "1",
                 ""
               ]
             },
@@ -330,7 +329,7 @@
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "string",
             "title": "Value"
           }
         ]
