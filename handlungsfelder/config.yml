@@ -1,11 +1,11 @@
-## if false, tile will used instead of tab
-use_tab: true
+display_as: tile # tab/tile
 
 frontpage_handlungsfelder:
   - title: Nachhaltige Verwaltung
     slug: nachhaltige-verwaltung
+    icon: "fa-gear"
     leitsatz: |
-      <p> Nachhaltigkeit ist bei der Stadt Herne als Querschnittsthema in allen Bereichen der 
+      <p>Nachhaltigkeit ist bei der Stadt Herne als Querschnittsthema in allen Bereichen der 
       Stadtverwaltung integriert. Grundsätze der nachhaltigen Entwicklung sind 
       bereits fester Bestandteil im alltäglichen Handeln verschiedener Fachbereiche 
       und sollen zukünftig weiter ausgebaut werden. Die Verwaltung der Stadt Herne 
@@ -22,6 +22,7 @@ frontpage_handlungsfelder:
 
   - title: Klimaschutz und Energie
     slug: klimaschutz-und-energie
+    icon: "fa-solar-panel"
     leitsatz: |
       <p>
       Herne bekennt sich zu den auf der UN-Klimakonferenz 2015 in Paris vereinbarten 
@@ -50,6 +51,7 @@ frontpage_handlungsfelder:
 
   - title: Ressourcenschutz & Klimafolgenanpassung
     slug: ressourcenschutz-klimafolgenanpassung
+    icon: "fa-recycle"
     leitsatz: |
       <p>
       Die Stadt Herne hat 2019 ein Klimafolgenanpassungskonzept verabschiedet, 
@@ -82,6 +84,7 @@ frontpage_handlungsfelder:
 
   - title: Nachhaltige Mobilität
     slug: nachhaltige-mobilitaet
+    icon: "fa-bicycle"
     leitsatz: |
       <p>
       Die Stadt Herne setzt auf nachhaltige Mobilität. Der Masterplan 
@@ -106,6 +109,7 @@ frontpage_handlungsfelder:
 
   - title: Lebenslanges Lernen
     slug: lebenslanges-lernen-kultur
+    icon: "fa-book"
     leitsatz: |
       <p>
       Lern- und Förderangebote decken in Herne das gesamte Spektrum der Lebensphasen 
@@ -133,6 +137,7 @@ frontpage_handlungsfelder:
 
   - title: Soziale Gerechtigkeit & Zukunftsfähigkeit
     slug: soziale-gerechtigkeit-zukunftsfahige-gesellschaft
+    icon: "fa-handshake"
     leitsatz: |
       <p>
       Bereits seit 1991 besteht verwaltungsintern ein Gleichstellungsplan. Es folgte 
@@ -166,6 +171,7 @@ frontpage_handlungsfelder:
 
   - title: Wohnen & nachhaltige Quartiere
     slug: wohnen-nachhaltige-quartiere
+    icon: "fa-home"
     leitsatz: |
       <p>
       Das Handlungskonzept Wohnen beschreibt die Rahmenbedingungen des 
@@ -195,6 +201,7 @@ frontpage_handlungsfelder:
 
   - title: Gute Arbeit & nachhaltiges Wirtschaften
     slug: gute-arbeit-nachhaltiges-wirtschaften
+    icon: "fa-briefcase"
     leitsatz: |
       <p>
       Die Stadt Herne setzt verschiedenste Maßnahmen für ein familienfreundliches 
@@ -235,11 +242,12 @@ frontpage_handlungsfelder:
 
   - title: Nachhaltiger Konsum & gesundes Leben
     slug: nachhaltiger-konsum-gesundes-leben
+    icon: "fa-leaf"
     leitsatz: |
       <p>
       Die Karte für einen nachhaltigen Alltag wurde entwickelt, um nachhaltige Orte 
       wie Repaircafés, Tauschschränke oder Trinkbrunnen im Stadtgebiet zu finden. 
-      Außerdem können die Bürgerinnen und B��rger auf städtischen Streuobstwiesen 
+      Außerdem können die Bürgerinnen und Bürger auf städtischen Streuobstwiesen 
       u.a. Äpfel oder Kirschen ernten, was das Bewusstsein für eine gesunde 
       Ernährung stärkt.
       </p>
@@ -263,9 +271,10 @@ frontpage_handlungsfelder:
       </p>
     hf-goals: "2,3,6,11,12,14"
     hf-color: "#BF8B2E"
-  #
+
   - title: Globale Verantwortung & Eine Welt
     slug: globale-verantwortung-eine-welt
+    icon: "fa-globe"
     leitsatz: |
       Als Fairtrade-Stadt engagiert sich die Stadt Herne mit diversen Akteuren der Stadtgesellschaft seit über einem Jahrzehnt für Nachhaltigkeit und globale Gerechtigkeit. Die Stadt Herne ist Teil des Netzwerks Faire Metropole Ruhr, bei dem ein regelmäßiger Wissens- und Erfahrungsaustausch zu den Themen Fairer Handel, nachhaltige Beschaffung sowie übergreifend zur Umsetzung der Globalen Nachhaltigkeitsziele in der Metropole Ruhr erfolgt. Mit der Unterzeichnung der Charta Faire Metropole Ruhr 2030 - Eine Fairfassung bekennt sich die Stadt Herne zu Fairem Handel und zu Fairer öffentlicher Beschaffung.
       Der Verein zur Förderung der partnerschaftlichen Beziehungen der Stadt Herne e.V. intensiviert den Austausch zwischen Bürgerinnen und Bürgern der Partnerstädte der Stadt Herne und unterstützt humanitäre Projekte, die u.a. die Nachhaltigkeit fördern, wie den Bau von umweltfreundlichen Häusern aus recycelten Materialien in Nicaragua. Zusätzlich werden Projekte an einer Schule unterstützt, die zum Umweltbewusstsein der Kinder und Jugendlichen beitragen, wie die Vermeidung von Müll und Recycling.
