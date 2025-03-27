@@ -128,8 +128,21 @@
             "title": "Jahr"
           },
           {
+            "name": "Gruppierung",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Photovoltaik",
+                "Biomasse",
+                "Grubengas",
+                ""
+              ]
+            },
+            "title": "Gruppierung"
+          },
+          {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]
