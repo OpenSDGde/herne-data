@@ -911,6 +911,18 @@
             "type": "integer"
           },
           {
+            "name": "Gruppierung",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "SGB II",
+                "SGB III",
+                "Insgesamt",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "number"
           }

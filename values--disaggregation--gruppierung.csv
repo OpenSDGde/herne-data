@@ -2,10 +2,13 @@ Value,Disaggregation combinations using this value,Number of indicators
 Altersarmut,1,1
 Biomasse,1,1
 Grubengas,1,1
+Insgesamt,1,1
 Jugendarmut,1,1
 Kinderarmut,1,1
 Kommunale Einrichtung,2,2
 Photovoltaik,1,1
 Private Haushalte,2,2
+SGB II,1,1
+SGB III,1,1
 Verkehr,2,2
 Wirtschaft,2,2
