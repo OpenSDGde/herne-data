@@ -1,7 +1,10 @@
 Value,Disaggregation combinations using this value,Number of indicators
 Allgemeine Hochschulreife,1,1
 Altersarmut,1,1
+Berufliche Fortbildung,1,1
 Biomasse,1,1
+Duale Ausbildung,1,1
+Erwerb Hochschulzugangsberechtigung,1,1
 Fachhochschulreife,1,1
 Fachoberschulreife,1,1
 Gesamtschule,1,1
@@ -17,7 +20,9 @@ Kommunale Einrichtung,2,2
 Photovoltaik,1,1
 Private Haushalte,2,2
 Realschule,1,1
+Schulberufssystem,1,1
 SGB II,1,1
 SGB III,1,1
 Verkehr,2,2
 Wirtschaft,2,2
+Übergangssystem,1,1
